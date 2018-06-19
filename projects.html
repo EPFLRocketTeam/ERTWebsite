@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<title>EPFL Rocket Team</title>
+		<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="csscode/style_general.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 1024px)" href="csscode/style_moyen.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 720px)" href="csscode/style_small.css"/>
+		<link rel="stylesheet" media="screen" href="csscode/styleprojectmatterhorn.css"/>
+		
+		<!-- Phrase Accents --> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<!-- Phrase Animations --><link rel="stylesheet" href="csscode/animate.css"/>
+		
+		<script>
+ 
+				function deroul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='rederoul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="195px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+				function rederoul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="0px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+		</script>
+		
+		<!-- CHIPMUNK Beginning -->		
+		<link href=“//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css” rel=“stylesheet” type=“text/css”>
+		<style type=“text/css”>
+			#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+			
+		</style>
+		<!-- CHIPMUNK END -->	
+		
+	</head>
+	
+	<body style="background-image:url(images/aleatoire/background_base.jpg); background-repeat:repeat-y">
+			<div class="entete_fake"></div>
+			
+			<div class="entete">
+				<a href="index.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+				
+				<div class="button">
+					<a href="about.html"><span class="text-hover" id="text_bouton1">- ERT</span></a>
+				   </br>
+				   <a href="about.html#Spaceport"><span class="text-hover" id="text_bouton2">- Spaceport America Cup</span></a>
+				   <span class="text-base">About</span>
+				</div>
+				
+				<div class="bouton_entete" id="bouton_lineup">
+					<a href="lineup.html"><p class="text_bouton">Lineup</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_projects">
+					<a href="projects.html"><p class="text_bouton">Projects</p></a>
+				</div>		
+				
+				<div class="bouton_entete" id="bouton_sponsors">
+					<a href="sponsors.html"><p class="text_bouton">Sponsors</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_news">
+					<a href="news.html"><p class="text_bouton">News</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_gallery">
+					<a href="gallery.html"><p class="text_bouton">Gallery</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_contact">
+					<a href="contact.html"><p class="text_bouton">Contact</p></a>
+				</div>
+				
+				<div class="fr"><a href="projects_fr.html"><p id="fr">FR</p></a></div>
+				<div class="slash"><p id="slash">/</p></div>
+				<div class="en"><a href="projects.html"><p id="en">EN</p></a></div>
+								
+				<div class="timeline">
+					<img src="images/profilepictures2018/timeline.png" id="timeline_pic">
+					<a href="projects.html#project_matterhorn"><img src="images/profilepictures2018/2018.png" id="teams_lineup" class="carre1"></a>
+					<a href="projects.html#project_eiger"><img src="images/profilepictures2019/2019.png" id="teams_lineup" class="carre2"></a>
+				</div>
+				
+				<div class="project_matterhorn_projects"><a name="project_matterhorn"><p id="titres">PROJECT MATTERHORN</p></a></div>
+				
+				<div  class="paragraphe1_projects">
+					<p align="justify">«Project MATTERHORN» is the team we are sending to compete at the 2018 Spaceport America Cup. Their rocket will measure over 2,70 meters and weigh over 20 kilograms.
+					</br></br></p>
+				</div>
+				
+				<ul class="a_projects" id="bullets">
+					<li>Structure: Made out of epoxy impregnated carbon fiber, the multiple launcher tubes are assembled thanks to a SRAD coupling system capable of lifting a small car! An easily disassembled fin modulus allows us to quickly swap 3mm thick full carbon fins in case of damage.</li></br>
+					<li>Recovery:  Most critical sub-system of the rocket, our recovery system functions with a single parachute. To minimize drifting due to high-altitude winds, the parachute’s shape is modified during the recovery using a technique called reefing. This is managed by changing the length of the central cord. 
+						The parachute’s ejection is done by piercing two CO2 capsules at apogee, thus creating an over pressurization. The payload comes out first and is attached to the parachute bag. As the chute bag is being pulled by the payload, the parachute comes out of the rocket and deploys itself, initially reefed. </li></br>
+					<li>Avionics: In-house developed controllers for parachutes and airbrakes in the center while telemetry and localization sensors are in the nose cone.</li></br>
+					<li>Ground station: From the ground, we receive heaps of data from the rocket’s on-board computer. Functionalities of the station include discrete event identification, flight prediction visualisation and altitude check.  </li></br>
+					<li>Airbrakes: We call them the « shuriken airbrakes ». Our rocket’s engine is planned to overshoot by around 500 meters. Taking account the wind, air pressure and other parameters, the on-board computer controls the airbrakes. A space-grade Faulhaber actuator drives a gearwheel which then drives the three breaking surfaces.</li></br>
+					<li>Experiment payload: Student researched and developed muon detector. Thanks to its 8 muon sensible scintillating plastic rods, the detector can estimate its descent speed based upon the muon detection rate. The payload has its own parachute which deploys completely at ejection and GPS beacon to aid recovery when it hits the ground. Thanks to its accelerometer, the payload can detect when liftoff occurs thus turning itself on. This minimizes battery usage.</li></br>
+					<li>Nosecone:Epoxy impregnated fiber glass nose cone. Unlike the carbon fiber body, radio waves can penetrate this composite material, making it a great choice for housing part of our avionic and antennas. </li></br>
+				</ul>
+				
+				<div class="rocket_description_matt">
+					<img src="images/aleatoire/rocketdescription_double.png" id="rocket_description_matt">
+				</div>
+				
+				
+				<div class="projecteiger_projects"><a name="project_eiger"><p id="titres">PROJECT EIGER</p></a></div>
+				</br></br></br></br>
+				<div><p class="prototype_projects"> PROTOTYPE : </br></br></p><img src="images/aleatoire/prototype.png" id="prototype_projects"></div>
+				
+				</br></br>
+				
+				<!-- CHIPMUNK Inschallah ça marchera un jour -->
+				<div id="mc_embed_signup_projects">
+					<form action="https://epflrocketteam.us18.list-manage.com/subscribe/post?u=ab160354cda1cba950591f63c&amp;id=4a266c7866” method=“post” id=“mc-embedded-subscribe-form” name=“mc-embedded-subscribe-form” class=“validate” target=“_blank” novalidate>
+					   <div id="mc_embed_signup_scroll">
+						<label for="mce-EMAIL" id="sentence_newsletter">Receive rocket science in you inbox:</label></br>
+						<input type="email" name="EMAIL" class="email" id="mce-email" placeholder="email address" required>
+					   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					   <div style="position: absolute; left: -5000px;” aria-hidden=“true”><input type=“text” name=“b_ab160354cda1cba950591f63c_4a266c7866” tabindex=“-1" value=""></div>
+					   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					   </div>
+					</form>
+				</div>
+
+			</div>		
+			
+			
+			<div class="version_mobile">
+				<a href="index.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+				
+				
+				<div class="small_fren">
+					<div class="small_fr"><a href="projects_fr.html"><p id="fr">FR</p></a></div>
+					<div class="small_slash"><p id="slash">/</p></div>
+					<div class="small_en"><a href="projects.html"><p id="en">EN</p></a></div>
+				</div>
+				
+				<div id="menu-accordeon">
+					<img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/>
+				</div>			
+				 
+				<div id="menu_bar">
+					<div class="small_bouton_entete" id="bouton_about">
+						<a href="about.html"><p align="center" class="small_text_bouton">About</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_lineup">
+						<a href="lineup.html"><p align="center" class="small_text_bouton">Lineup</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_projects">
+						<a href="projects.html"><p align="center" class="small_text_bouton">Projects</p></a>
+					</div>	
+					<div class="small_bouton_entete" id="small_bouton_sponsors">
+						<a href="sponsors.html"><p align="center" class="small_text_bouton">Sponsors</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_news">
+						<a href="news.html"><p align="center" class="small_text_bouton">News</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_gallery">
+						<a href="gallery.html"><p align="center" class="small_text_bouton">Gallery</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_contact">
+						<a href="contact.html"><p align="center" class="small_text_bouton">Contact</p></a>
+					</div>
+				</div>	
+			</div>	
+
+			
+			
+			
+			
+			
+	</body>
+</html>

@@ -1,0 +1,930 @@
+html, body{
+margin:0px;
+padding:0px;
+}
+body{
+background-size:100%;
+}
+			
+/* Style Entete */
+
+.ertlogo_entete{
+width:128px; 
+height:84px; 
+padding-left:10px; 
+padding-top:5px;
+}
+
+.entete{
+width:1024px;
+height:120px;
+margin-left:auto;
+margin-right:auto;
+margin-top:-110px;
+}
+
+.entete_fake{
+width:100%;
+height:120px;
+background-color:rgb(149, 149, 149,0.6);
+margin-top:0px;
+}
+
+.bouton_entete{
+height:30px;
+}
+
+a{/* pas de texte surligné en bleu */ 
+text-decoration:none;
+}
+
+.text_bouton{
+	font-family:helvetica;
+	font-size:20px;
+	padding-left:5px;
+	padding-top:3px;
+	color:black;
+}	
+	
+.text_bouton:hover{
+color:red;
+}
+
+/* Insch bouton about sa mere */
+												/* On montre le premier texte */
+												.text-base{
+													opacity:1;
+													font-family:helvetica;
+													font-size:20px;
+													padding-left:5px;
+													padding-top:3px;
+													color:black;
+												}
+												/* On cache le second texte */
+												.text-hover{
+												   display:none;
+												   font-family:helvetica;
+													font-size:20px;
+													padding-left:5px;
+													padding-top:3px;
+													color:black;
+												}
+												/* On fait disparaitre le premier texte au passage de la souris. */
+												.button:hover span.text-base{
+												   opacity:0;
+												   z-index:10;
+												}
+												/* On fait apparaitre le second texte au passage de la souris. */
+												.button:hover span.text-hover{
+												   display:inherit;
+												   position:absolute;
+												}
+												#text_bouton1:hover{
+												color:red;
+												}
+												#text_bouton2:hover{
+												color:red;
+												}
+												#text_bouton1{
+													margin-top:16px;
+													z-index:9;
+													height:60px;
+												}
+												#text_bouton2{
+													margin-top:34px;
+													z-index:10;
+												}
+												.button{
+												margin-left:180px;
+												margin-top:-70px;
+												height:50px;
+												width:100px;
+												}		
+
+#bouton_lineup{
+margin-left:285px;
+margin-top:-55px;
+width:70px;
+}
+
+#bouton_projects{
+margin-left:405px;
+width:85px;
+margin-top:-50px;
+overflow:hidden;
+height:50px;
+position:absolute;
+}
+
+#bouton_projects:hover{
+height:100px;
+}
+
+#bouton_sponsors{
+margin-left:540px;
+margin-top:-50px;
+width:95px;
+}
+
+#bouton_news{
+margin-left:690px;
+margin-top:-50px;
+width:65px;
+}
+
+#bouton_gallery{
+margin-left:790px;
+margin-top:-50px;
+width:95px;
+}
+
+#bouton_contact{
+margin-left:915px;
+margin-top:-50px;
+width:95px;
+}
+
+.fr{
+margin-left:900px;
+margin-top:60px;
+}
+.en{
+margin-left:940px;
+margin-top:-35px;
+}
+#fr,#en,#slash{
+font-family:helvetica;
+font-size:16px;
+color:white;
+}
+#fr:hover,#en:hover{
+color:red;
+}
+.slash{
+margin-left: 930px;
+margin-top: -34px;
+}
+
+/* Style entete FR */
+
+#bouton_lineup_fr{
+margin-left:300px;
+margin-top:-55px;
+width:70px;
+}
+
+#bouton_projects_fr{
+margin-left:420px;
+width:85px;
+margin-top:-50px;
+overflow:hidden;
+height:50px;
+position:absolute;
+}
+
+#bouton_projects_fr:hover{
+height:100px;
+}
+
+#bouton_sponsors_fr{
+margin-left:530px;
+margin-top:-50px;
+width:95px;
+}
+
+#bouton_news_fr{
+margin-left:660px;
+margin-top:-50px;
+width:65px;
+}
+
+#bouton_gallery_fr{
+margin-left:800px;
+margin-top:-50px;
+width:95px;
+}
+
+#bouton_contact_fr{
+margin-left:915px;
+margin-top:-50px;
+width:95px;
+}
+
+.id{                                    /* ça sert a rien non ? */
+margin-left:1000px;
+}
+
+
+/* Page Home */
+
+#background_home{
+background-image:url(../images/aleatoire/background_home.png); 
+background-repeat:no-repeat; 
+background-attachment:fixed;
+background-color: black;
+}
+
+.logos_home{
+margin-top:150px;
+}
+
+#logos_home{
+width:35px; 
+height:35px; 
+margin-left:65px;
+margin-bottom:10px;
+}
+.help_maxime{
+border-style: solid;
+border-color: white;
+border-width:5px;
+margin-top:-250px;
+margin-left:700px;
+width:265px;
+}
+#help_maxime{
+color: white;
+font-family:helvetica;
+font-size:20px;
+font-weight:bold;
+}
+.sponsorus{
+margin-top:150px;
+margin-left:750px;
+background-color:red;
+width:150px;
+border-style:solid;
+border-color: white;
+}
+#sponsorus{
+color:white;
+font-size:20px;
+font-family:helvetica;
+}
+
+
+/* Page About */
+
+.titre1_about{
+margin-top:-300px;
+margin-left:400px;
+}
+
+#titres{
+font-family:helvetica;
+font-size:30px;
+color:red;
+font-weight: bold;
+text-shadow: #FFFFFF 0.5px 0.5px, #FFFFFF -0.5px 0.5px, #FFFFFF -0.5px -0.5px, #FFFFFF 0.5px -0.5px;
+}
+
+.paragraphe1_about{
+margin-left:200px;
+margin-top:50px;
+margin-right:110px;
+}
+#paragraphe1_about{
+color:white;
+font-family:helvetica;
+font-size:18px;
+}
+.team_about{
+margin-left:230px;
+margin-top:50px;
+}
+#team_about{
+width:603px; 
+height:383px;
+}
+
+.titre2_about{
+margin-top:50px;
+margin-left:180px;
+}
+.paragraphe2_about{
+color:white;
+font-family:helvetica;
+font-size:18px;
+margin-left:75px;
+margin-top:70px;
+margin-right:525px;
+}
+.inschallah{
+margin-left:75px;
+margin-right:525px;
+}
+
+.liensac1_about{
+font-size:17px;
+margin-left:90px;
+margin-top:-15px;
+}
+.liensac2_about{
+font-family:helvetica;
+color:white;
+}
+.liensac2_about:hover{
+color:red;
+}
+.fuseesac_about{
+margin-top:-670px;
+margin-left:530px;
+}
+#fuseesac_about{
+width:370px; 
+height:600px;
+}
+
+#fuseesac_about:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.liensr_about{
+margin-top:-40px;
+margin-left:200px;
+}
+
+.paragraphe3_about{
+color:white;
+font-family:helvetica;
+font-size:18px;	
+margin-left:70px;
+margin-right:40px;
+margin-top:100px;
+}
+
+ul.a_about{
+list-style-type: circle;
+iteration:none;
+}
+
+#bullets{
+color:white;
+font-family:helvetica;
+font-size:17px;
+}
+
+.maptitle{
+margin-top:50px;
+margin-left:350px;
+font-size:20px;
+font-family:helvetica;
+font-weight: bold;
+color:white;
+}
+
+#map {
+margin-top:20px;
+margin-left:80px;
+height: 450px;
+width: 850px;
+}
+
+#mc_embed_signup{
+margin-top:100px;
+position:absolute;
+}
+
+#mc_embed_signup_projects{
+margin-top:100px;
+position:absolute;
+}
+
+#mc_embed_signup_projects_fr{
+margin-top:100px;
+position:absolute;
+}
+
+#sentence_newsletter{
+color:red;
+font-family:helvetica;
+font-size:30px;
+margin-left:250px;
+}
+#mce-email{
+margin-left:100px;
+margin-top:20px;
+height:30px;
+width:800px;
+text-align:center;
+font-size:18px;
+}
+#mc-embedded-subscribe{
+margin-left:450px;
+margin-top:20px;
+font-size:20px;
+height:30px;
+width:105px; 	
+}
+
+/* Page About FR */
+
+.paragraphe3_about_fr{
+color:white;
+font-family:helvetica;
+font-size:18px;	
+margin-left:70px;
+margin-right:40px;
+margin-top:150px;
+}
+.fuseesac_about_fr{
+margin-top:-750px;
+margin-left:550px;
+}
+.liensr_about_fr{
+margin-top:-40px;
+margin-left:210px;
+}
+
+/* Page Lineup - classes utilisés: cadre / names / namez/ roles / emails / deux / trois */
+
+.titres_lineup{
+margin-top:100px;
+margin-left:15px;
+}
+
+#titre_team{
+font-family:helvetica;
+font-size:32px;
+color:white;
+font-weight: bold;
+}
+#timeline_pic{
+margin-left: 180px; 
+width:700px; 
+height:200px;
+}
+.carre1{
+margin-top:-170px; 
+margin-left:320px; 
+width:150px; 
+height:120px;
+}
+.carre2{
+margin-top:-170px; 
+margin-left:575px; 
+width:150px; 
+height:120px;
+}
+#teams_lineup:hover{
+position:relative; 
+-webkit-transform: scale(1.3,1.3);
+-moz-transform: scale(1.3,1.3);
+-ms-transform: scale(1.3,1.3);
+-o-transform: scale(1.3,1.3);
+transform: scale(1.3,1.3);
+z-index:10;
+border: 5px solid rgba(255, 0, 0, 0.5);
+}
+
+.cadre{
+margin-top:50px;
+margin-left:15px;
+width:1000px;
+height:325px;
+}
+
+#cadre{
+background-color:white;
+width:250px;
+height:325px;
+border-radius:5px;
+}
+
+#photos_lineup{
+width:150px; 
+height:150px;
+margin-left:50px;
+margin-top:25px;
+}
+.names{
+margin-top:25px;
+font-family:helvetica;
+font-size:25px;
+color:black;
+font-weight: bold;
+font-style: italic;
+}
+.namez{ /* Pour les personnes qui ont des noms très longs */
+margin-top:25px;
+font-family:helvetica;
+font-size:21px;
+color:black;
+font-weight: bold;
+font-style: italic;
+}
+.roles{
+margin-top:25px;
+font-family:helvetica;
+font-size:18px;
+color:#525252;
+}
+.emails{
+margin-top:-7px;
+font-family:helvetica;
+font-size:15px;
+color:#525252;
+}
+
+.emails:hover{
+color:red;
+}
+.deux{
+margin-left:365px;
+margin-top:-325px;
+}
+.trois{
+margin-left:730px;
+margin-top:-325px;
+}
+
+/* Page Projets */
+
+.project_matterhorn_projects{
+margin-top:0px;
+margin-left:350px;
+}
+.paragraphe1_projects{
+margin-top:50px;
+margin-left:150px;
+color:white;
+font-family:helvetica;
+margin-right:150px;
+}
+
+.a_projects{
+margin-right:500px;
+margin-left:130px;
+}
+ul.a_projects{
+list-style-type:none;
+}
+
+.rocket_description_matt{
+margin-left:700px;
+margin-top:-1200px;
+}
+#rocket_description_matt{
+width:60px; 
+height:1200px;
+}
+.rocket_description_matt_fr{
+margin-left:700px;
+margin-top:-600px;
+}
+#rocket_description_matt_fr{
+width:60px; 
+height:550px;
+}
+.projecteiger_projects,.projecteiger_projects_fr{
+margin-top:200px;
+margin-left:400px;
+}
+.prototype_projects,.prototype_projects_fr{
+color:white; 
+font-size:25px; 
+margin-left:200px;
+}
+#prototype_projects,#prototype_projects_fr{
+width:900px;
+height:100px;
+margin-left:100px;
+}
+
+/* Page Sponsors noms utilisés: noms des logos / types / categories / separateur */
+
+#background_sponsors{
+background-image:url(../images/aleatoire/background_sponsors.png);
+background-repeat:repeat-y;
+background-color: white;
+}
+.types{
+color:red;
+font-family:helvetica;
+font-size:30px;
+margin-left:460px
+}
+.categories{
+margin-top:100px;
+width:1000px;
+height:250px;
+}
+#separateurmain{
+width:990px; 
+height:75px;
+}
+.ruag{
+width:425px; 
+height:115px;
+}
+.evs{
+width:425px; 
+height:115px; 
+margin-left:130px;
+}
+.separateur{
+margin-top:100px;
+width:1000px;
+height:250px;
+}
+#separateurgold{
+width:990px; 
+height:75px;
+}
+.sta{
+width:250px; 
+height:180px;
+margin-left:370px;
+}
+#separateursilver{
+width:990px; 
+height:75px;
+}
+.separateurbronze{
+margin-top:340px;
+width:1000px;
+height:250px;
+}
+
+.separateursupports{
+margin-top:170px;
+width:1000px;
+height:250px;
+}
+.faulhaber{
+width:375px; 
+height:35px;
+margin-left:300px;
+}
+.innovaud{
+margin-left:100px;
+margin-top:75px;
+width:240px; 
+height:100px;
+}
+.forumepfl{
+width:375px; 
+height:80px; 
+margin-left:600px; 
+margin-top:-100px;
+}
+.aeropoly{
+margin-left:75px;
+margin-top:70px;
+width:320px; 
+height:120px;
+}
+.montagne{
+margin-left:580px;
+margin-top:-200px;
+width:400px; 
+height:275px;
+}
+#separateurbronze{
+width:990px; 
+height:75px;
+}
+.suter{
+margin-left:275px;
+margin-top:50px;
+width:400px;
+height:50px;
+}
+.lemo{
+margin-left:75px;
+margin-top:40px;
+width:350px; 
+height:100px;
+}
+.kuehne{
+margin-left:700px;
+margin-top:-110px;
+width:150px; 
+height:110px;
+}
+.peacock{
+margin-left:120px;
+margin-top:30px;
+width:250px; 
+height:200px;
+}
+.kifa{
+margin-left:690px;
+margin-top:-170px;
+width:180px; 
+height:130px;
+}
+
+.mouser{
+margin-left:80px;
+margin-top:70px;
+width:200px; 
+height:60px;
+}
+.bioenno{
+margin-left:370px;
+margin-top:-70px;
+width:250px; 
+height:90px;
+}
+.maedler{
+margin-left:720px;
+margin-top:-100px;
+width:150px; 
+height:80px;
+}
+.hamamatsu{
+margin-left:110px;
+margin-top:60px;
+width:450px; 
+height:80px;
+}
+.swaytronic{
+margin-left:630px;
+margin-top:-80px;
+width:200px; 
+height:70px;
+}
+#separateursupports{
+width:990px; 
+height:75px;
+}
+.espace{
+margin-left:70px;
+margin-top:70px;
+width:270px; 
+height:60px;
+}
+.heig{
+margin-left:400px;
+margin-top:-70px;
+width:270px; 
+height:70px;
+}
+.dslab{
+margin-left:700px;
+margin-top:-70px;
+width:200px; 
+height:80px;
+}
+
+/* Page News */
+
+.decal_fb{
+margin-left:180px;
+}
+.fb-page,.fb-root{
+margin-top:100px;
+margin-left:100px;
+}
+
+/* Page Gallery - noms utilisés: image1 / image2 ... */
+
+.gallery_pics{
+display:block;
+}
+.check_insta{
+display:none;
+}
+
+.titre_gallery{
+font-size:30px;
+font-family:helvetica;
+color:#E8E8E8;
+}
+
+#image1:hover, #image2:hover, #image6:hover{
+margin-left:50px;
+position:relative; 
+-webkit-transform: scale(1.3,1.3);
+-moz-transform: scale(1.3,1.3);
+-ms-transform: scale(1.3,1.3);
+-o-transform: scale(1.3,1.3);
+transform: scale(1.3,1.3);
+z-index:10;
+border: 5px solid rgba(255, 0, 0, 0.5);
+}
+
+#image3:hover, #image4:hover, #image5:hover{
+margin-right:100px;
+position:relative; 
+-webkit-transform: scale(1.2,1.2);
+-moz-transform: scale(1.2,1.2);
+-ms-transform: scale(1.2,1.2);
+-o-transform: scale(1.2,1.2);
+transform: scale(1.2,1.2);
+z-index:8;
+border: 5px solid rgba(255, 0, 0, 0.5);
+}
+
+.image1{
+margin-left:10px;
+margin-top:90px;
+position:relative;
+}
+#image1{
+width:530px;
+height:350px;
+}
+
+.image2{
+margin-left:10px;
+margin-top:50px;
+position:relative;
+}
+#image2{
+width:530px;
+height:320px;
+}
+
+.image3{
+margin-left:600px;
+margin-top:-720px;
+position:relative;
+}
+#image3{
+width:400px;
+height:720px;
+}
+
+.image4{
+margin-left:470px;
+margin-top:50px;
+position:relative;
+}
+#image4{
+width:530px;
+height:350px;
+}
+
+.image5{
+margin-left:470px;
+margin-top:50px;
+position:relative;
+}
+#image5{
+width:530px;
+height:340px;
+}
+
+.image6{
+margin-left:10px;
+margin-top:-740px;
+position:relative;
+}
+#image6{
+width:400px;
+height:740px;
+}
+
+/* Page Contact */
+
+.title_contact, .title_contact_fr{
+font-family:helvetica;
+font-size:27px;
+color:#DCDCDC;
+margin-top:100px;
+}
+.noms_contact{
+font-family:helvetica;
+font-size:20px;
+color:#AFAFAF;
+margin-left:140px;
+}
+.boites_contact{
+height:40px;
+margin-top:-15px;
+margin-left:140px;
+background-color:transparent;
+border-width:1px;
+color:white;
+font-size:20px;
+width:800px;
+}
+.option_contact{
+background-color:black;	
+margin-top:-15px;
+margin-left:140px;
+border-width:1px;
+color:white;
+font-size:20px;
+width:800px;
+}
+.send_contact{
+margin-left:140px;
+margin-top:30px;
+width:800px;
+background-color:#DE3F3F;
+color:white;
+font-size:20px;
+border-width:1px;
+height:40px;
+}
+
+.version_mobile{
+display:none;
+}
+

@@ -1,0 +1,143 @@
+<html>
+	<head>
+		<title>EPFL Rocket Team</title>
+		<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="csscode/style_general.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 1024px)" href="csscode/style_moyen.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 720px)" href="csscode/style_small.css"/>
+		
+		<!-- Phrase Accents --> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<!-- Phrase Animations --><link rel="stylesheet" href="csscode/animate.css"/>
+		
+		<script>
+ 
+				function deroul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='rederoul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="195px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+				function rederoul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="0px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+		</script>
+		
+	</head>
+	
+	<body style="background-image:url(images/aleatoire/background_base.jpg); background-repeat:repeat-y">
+			<div class="entete_fake"></div>
+			
+			<div class="entete">
+				<a href="index.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+				
+				<div class="button">
+					<a href="aboutfr.html"><span class="text-hover" id="text_bouton1">- ERT</span></a>
+				   </br>
+				   <a href="aboutfr.html#Spaceport"><span class="text-hover" id="text_bouton2">- Spaceport America Cup</span></a>
+				   <span class="text-base">&Agrave; propos</span>
+				</div>
+				<div class="bouton_entete" id="bouton_lineup_fr">
+					<a href="lineupfr.html"><p class="text_bouton">Equipes</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_projects_fr">
+					<a href="projects_fr.html"><p class="text_bouton">Projets</p></a>
+				</div>	
+				<div class="bouton_entete" id="bouton_sponsors_fr">
+					<a href="sponsors.html"><p class="text_bouton">Sponsors</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_news_fr">
+					<a href="news.html"><p class="text_bouton">Actualités</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_gallery_fr">
+					<a href="galleryfr.html"><p class="text_bouton">Galerie</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_contact_fr">
+					<a href="contactfr.html"><p class="text_bouton">Contact</p></a>
+				</div>
+				
+				<div class="fr"><a href="contact_fr.html"><p id="fr">FR</p></a></div>
+				<div class="slash"><p id="slash">/</p></div>
+				<div class="en"><a href="contact.html"><p id="en">EN</p></a></div>
+				
+				
+				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+					<p class="title_contact_fr" align="center">Partagez &nbsp &nbsp vos &nbsp &nbsp idées &nbsp &nbsp avec &nbsp &nbsp la </br> EPFL &nbsp &nbsp ROCKET &nbsp &nbsp TEAM &nbsp !</p> </br>
+					<div id="div_formulaire">
+						<p class="noms_contact">Prénom:</p>
+						<input type="text" class="boites_contact" name="name">
+						<p class="noms_contact">Nom de famille:</p>
+						<input type="text" class="boites_contact" name="name"><br>
+						<p class="noms_contact">E-mail:</p>
+						<input type="text" id="email-1" class="boites_contact" name="mail"><br>
+						<p class="noms_contact">Confirmez votre E-mail:</p>
+						<input type="text" id="email-2" class="boites_contact" name="mail"><br>
+						<p class="noms_contact">Message:</p>
+						<input type="text" class="boites_contact" name="comment" size="50"><br>
+						<p class="noms_contact">Je suis :</p>
+						<select class="option_contact">
+							<option>une entreprise</option>
+							<option>un étudiant</option>
+							<option>autre</option>
+						</select>
+						</br>
+						<input type="submit" value="Send" class="send_contact">
+					</div>
+				</form>
+				
+				</br></br></br>
+				
+			</div>
+							
+			
+			
+			
+			<div class="version_mobile">
+				<a href="indexfr.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+				
+				<div class="small_fren">
+					<div class="small_fr"><a href="contact_fr.html"><p id="fr">FR</p></a></div>
+					<div class="small_slash"><p id="slash">/</p></div>
+					<div class="small_en"><a href="contact.html"><p id="en">EN</p></a></div>
+				</div>
+				
+				<div id="menu-accordeon">
+					<img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/>
+				</div>			
+				 
+				<div id="menu_bar">
+					<div class="small_bouton_entete" id="bouton_about">
+						<a href="aboutfr.html"><p align="center" class="small_text_bouton">&Agrave; propos</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_lineup">
+						<a href="lineupfr.html"><p align="center" class="small_text_bouton">Equipes</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_projects">
+						<a href="projects_fr.html"><p align="center" class="small_text_bouton">Projets</p></a>
+					</div>	
+					<div class="small_bouton_entete" id="small_bouton_sponsors">
+						<a href="sponsors.html"><p align="center" class="small_text_bouton">Sponsors</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_news">
+						<a href="news.html"><p align="center" class="small_text_bouton">Actualités</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_gallery">
+						<a href="galleryfr.html"><p align="center" class="small_text_bouton">Galerie</p></a>
+					</div>
+					<div class="small_bouton_entete" id="small_bouton_contact">
+						<a href="contact_fr.html"><p align="center" class="small_text_bouton">Contact</p></a>
+					</div>
+				</div>	
+			</div>	
+
+			
+			
+			
+			
+			
+			
+		
+	</body>
+</html>

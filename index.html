@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EPFL Rocket Team</title>
+		<link rel="icon" type="image/ico" href="images/favicon.ico"/>
+		<link rel="stylesheet" media="screen and (min-width: 1024px)" href="csscode/style_general.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 1024px)" href="csscode/style_moyen.css"/>
+		<link rel="stylesheet" media="screen and (max-width: 720px)" href="csscode/style_small.css"/>
+		
+		<!-- Phrase Accents --> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<!-- Phrase Animations --><link rel="stylesheet" href="csscode/animate.css"/>
+		
+		<script>
+ 
+				function deroul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='rederoul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="195px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+				function rederoul() {
+				var x;
+				x="<div><img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/></div>";
+				document.getElementById('menu_bar').style.height="0px";
+				document.getElementById("menu-accordeon").innerHTML=x;}
+				 
+		</script>
+		
+	</head>
+	
+	<body id="background_home">
+			<div class="entete_fake"></div>
+			
+			<div class="entete">
+				<a href="index.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+				
+				<div class="button">
+					<a href="about.html"><span class="text-hover" id="text_bouton1">- ERT</span></a>
+				   </br>
+				   <a href="about.html#Spaceport"><span class="text-hover" id="text_bouton2">- Spaceport America Cup</span></a>
+				   <span class="text-base">About</span>
+				</div>
+				
+				<div class="bouton_entete" id="bouton_lineup">
+					<a href="lineup.html"><p class="text_bouton">Lineup</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_projects">
+					<a href="projects.html"><p class="text_bouton">Projects</p></a>
+				</div>	
+				<div class="bouton_entete" id="bouton_sponsors">
+					<a href="sponsors.html"><p class="text_bouton">Sponsors</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_news">
+					<a href="news.html"><p class="text_bouton">News</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_gallery">
+					<a href="gallery.html"><p class="text_bouton">Gallery</p></a>
+				</div>
+				<div class="bouton_entete" id="bouton_contact">
+					<a href="contact.html"><p class="text_bouton">Contact</p></a>
+				</div>
+				
+				<div class="fr"><a href="indexfr.html"><p id="fr">FR</p></a></div>
+				<div class="slash"><p id="slash">/</p></div>
+				<div class="en"><a href="index.html"><p id="en">EN</p></a></div>
+				
+				<div class="logos_home animated slideInDown">
+					<a href="https://www.facebook.com/epflrocketteam/"><img src="images/logos/facebook.png" id="logos_home"/></a>
+					<br/>
+					<a href="https://www.instagram.com/epflrocketteam/"><img src="images/logos/intagram.png" id="logos_home" /></a>
+					<br/>
+					<a href="https://www.linkedin.com/company/epfl-rocket-team/?originalSubdomain=fr"><img src="images/logos/linkdin.png" id="logos_home"/></a>
+					<br/>
+					<a href="https://twitter.com/epfl_rocketteam"><img src="images/logos/twitter.png" id="logos_home" /></a>
+				</div>
+				
+				
+				<div class="help_maxime animated slideInDown">				
+					<p align="center" id="help_maxime"> HELP MAXIME BUILD A ROCKET FOR THE 2019 SPACEPORT AMERICA CUP </p>
+				</div>
+				
+				<div class="sponsorus animated slideInDown">
+					<a href="https://www.lepotcommun.fr/pot/byo2dy7i"><p align="center" id="sponsorus"><B>Sponsor Us!</B></p></a>
+				</div>
+							
+			</div>
+							
+			<div class="version_mobile">
+				<div class="small_entete_fake">
+					<a href="index.html"><img class="ertlogo_entete" src="images/logos/ertlogo.png" /></a>
+					
+					<div class="small_fren">
+						<div class="small_fr"><a href="indexfr.html"><p id="fr">FR</p></a></div>
+						<div class="small_slash"><p id="slash">/</p></div>
+						<div class="small_en"><a href="index.html"><p id="en">EN</p></a></div>
+					</div>
+					
+					<div id="menu-accordeon">
+						<img class='menu_portable' onclick='deroul()' src='images/logos/menu_portable.png'/>
+					</div>			
+					 
+					<div id="menu_bar">
+						<div class="small_bouton_entete" id="bouton_about">
+							<a href="about.html"><p align="center" class="small_text_bouton">About</p></a>
+						</div>
+						<div class="small_bouton_entete" id="small_bouton_lineup">
+							<a href="lineup.html"><p align="center" class="small_text_bouton">Lineup</p></a>
+						</div>
+						<div class="small_bouton_entete" id="small_bouton_projects">
+							<a href="projects.html"><p align="center" class="small_text_bouton">Projects</p></a>
+						</div>	
+						<div class="small_bouton_entete" id="small_bouton_sponsors">
+							<a href="sponsors.html"><p align="center" class="small_text_bouton">Sponsors</p></a>
+						</div>
+						<div class="small_bouton_entete" id="small_bouton_news">
+							<a href="news.html"><p align="center" class="small_text_bouton">News</p></a>
+						</div>
+						<div class="small_bouton_entete" id="small_bouton_gallery">
+							<a href="gallery.html"><p align="center" class="small_text_bouton">Gallery</p></a>
+						</div>
+						<div class="small_bouton_entete" id="small_bouton_contact">
+							<a href="contact.html"><p align="center" class="small_text_bouton">Contact</p></a>
+						</div>
+					</div>		  			  
+							  
+					<div class="small_about">
+						<p align="center" id="small_home_sentence"> We are just some EPFL students building rockets!</p>
+					</div>
+					
+					<div class="small_logos animated slideInLeft">
+						<div style="margin-left:1%;"><a href="https://www.facebook.com/epflrocketteam/"><img src="images/logos/facebook.png" id="small_logos"/></a></div>
+						<br/>
+						<div style="margin-top:-59px; margin-left:18%;"><a href="https://www.instagram.com/epflrocketteam/"><img src="images/logos/intagram.png" id="small_logos"/></a></div>
+						<br/>
+						<div style="margin-top:-59px;margin-left:36%;"><a href="https://www.linkedin.com/company/epfl-rocket-team/?originalSubdomain=fr"><img src="images/logos/linkdin.png" id="small_logos"/></a></div>
+						<br/>
+						<div style="margin-top:-59px;margin-left:54%;"><a href="https://twitter.com/epfl_rocketteam"><img src="images/logos/twitter.png" id="small_logos"/></a></div>
+					</div>
+					
+					<a href="https://www.lepotcommun.fr/pot/byo2dy7i"><div class="small_sponsorus animated slideInRight">
+						<p align="center" id="small_sponsorus"><B>Sponsor Us!</B></p>
+					</div></a>
+								
+				</div>
+				
+				</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+			</div>
+		
+			
+		
+	</body>
+</html>
