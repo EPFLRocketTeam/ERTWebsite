@@ -42,13 +42,17 @@ The odd sub-page numbers are for english pages and the even sub-page numbers are
 | 07 | 01 | Gallery | `gallery` |
 | 07 | 02 | Gallery | `galleryfr` |
 | 07 | 03 | Matterhorn (2018) | |
+| 07 | 04 | Matterhorn (2018) | |
 | 07 | 05 | Eiger (2019) | |
+| 07 | 06 | Eiger (2019) | |
 | **08** | **XX** | **Contact** | |
 | 08 | 01 | Contact | `contact` |
 | 08 | 02 | Contact | `contact_fr` |
 | **09** | **XX** | **Member page** |
 | 09 | 01 | Login | |
 | 09 | 02 | Login | |
+| 09 | 03 | Profile page | |
+| 09 | 04 | Profil | |
 
 XXXX is the task number.
 YYYY is the commit number for the given task.
@@ -101,7 +105,12 @@ YYYY is the commit number for the given task.
 
 | ID | Task |
 |----|------|
-| `HTML-04-02-0001` | Update the text so it matches the English text |
+| `HTML-04-01-0001` | Create a seperate page for Matterhorn |
+| `HTML-04-02-0001` | Create a seperate page for Matterhorn |
+| `HTML-04-03-0001` | Create a seperate page for Eiger |
+| `HTML-04-04-0001` | Create a seperate page for Eiger |
+| `HTML-04-01-0002` | Add a link to the DR documents |
+| `HTML-04-02-0002` | Add a link to the DR documents |
 
 ### Sponsors page
 
@@ -127,6 +136,12 @@ YYYY is the commit number for the given task.
 
 | ID | Task |
 |----|------|
+| `HTML-07-01-0001` | Have a best-of picture selection with a picture of Matterhorn as a link to the 2018 pictures and Eiger for the 2019 ones |
+| `HTML-07-02-0001` | Have a best-of picture selection with a picture of Matterhorn as a link to the 2018 pictures and Eiger for the 2019 ones |
+| `HTML-07-03-0001` | Create a 2018 picture gallery page |
+| `HTML-07-04-0001` | Create a 2018 picture gallery page |
+| `HTML-07-05-0001` | Create a 2019 picture gallery page |
+| `HTML-07-06-0001` | Create a 2019 picture gallery page |
 
 ### Contact page
 
@@ -141,6 +156,10 @@ YYYY is the commit number for the given task.
 
 | ID | Task |
 |----|------|
+| `HTML-09-01-0001` | Create a login page |
+| `HTML-09-02-0001` | Create a login page |
+| `HTML-09-03-0001` | Create a profile page |
+| `HTML-09-04-0001` | Create a profile page |
 
 ## CSS
 
@@ -150,3 +169,8 @@ YYYY is the commit number for the given task.
 | `CSS-G-0002` | Find better color matches for the text and the background |
 | `CSS-G-0003` | Change the outline of the images upon hover : slow it down and change the color |
 | `CSS-G-0004` | Find better color matches for the text and the background |
+
+## Various developments
+
+ - Host Slack, Mattermost or equivalent on a sub-domain
+ - Have a file-sharing system for external persons
