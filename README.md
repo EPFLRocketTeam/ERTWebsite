@@ -92,7 +92,6 @@ YYYY is the commit number for the given task.
 
 | ID | Task |
 |----|------|
-| `HTML-03-01-0001` | Add a link to each of the email adresses |
 | `HTML-03-02-0001` | Add a link to each of the email adresses |
 | `HTML-03-03-0001` | Add a link to each of the email adresses |
 | `HTML-03-04-0001` | Add a link to each of the email adresses |
@@ -178,3 +177,8 @@ YYYY is the commit number for the given task.
 
  - Host Slack, Mattermost or equivalent on a sub-domain
  - Have a file-sharing system for external persons
+
+# Archived/Completed tasks
+| ID | Task |
+|----|------|
+| `HTML-03-01-0001` | Add a link to each of the email adresses |
