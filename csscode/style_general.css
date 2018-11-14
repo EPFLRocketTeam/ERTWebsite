@@ -610,60 +610,73 @@ margin-left:460px
 .categories{
 margin-top:100px;
 width:1000px;
-height:250px;
+height:300px;
 }
 #separateurmain{
 width:990px; 
 height:75px;
+margin-bottom: 15px;
+margin-left: 2%;
 }
 .ruag{
 width:425px; 
 height:115px;
-}
-.evs{
-width:425px; 
-height:115px; 
-margin-left:130px;
+float:left;
+margin-left:2%;
 }
 .separateur{
-margin-top:100px;
 width:1000px;
-height:250px;
+height:280px;
 }
 #separateurgold{
 width:990px; 
 height:75px;
+margin-bottom: 15px;
+margin-left: 2%;
 }
 .sauber{
-width:530px;
-height:85px;
-margin-left:20px;
-margin-top: -120px;
+width:515px;
+height:auto;
+margin-top:30px;
+margin-left:2%;
+float:left
 }
-.sta{
-width:250px; 
-height:180px;
-margin-left:650px;
+.apco{
+width:395px;
+height:auto;
+margin-left:6%;
+float:left;
 }
 #separateursilver{
 width:990px; 
 height:75px;
+margin-left:2%;
+margin-bottom: 15px;
+
 }
 .separateurbronze,.separateurwhite{
-margin-top:540px;
 width:1000px;
 height:250px;
+margin-bottom: 15px;
+margin-left:2%;
 }
-
 .separateursupports{
-margin-top:170px;
 width:1000px;
 height:250px;
+margin-bottom: 15px;
+}
+.lemo{
+width:450px; 
+height:auto;
+margin-left:30%;
+float:left;
 }
 .faulhaber{
-width:375px; 
-height:35px;
-margin-left:300px;
+width:560px; 
+height:auto;
+margin-top: 45px;
+margin-left:23%;
+float:left;
 }
 .innovaud{
 margin-left:100px;
@@ -689,11 +702,6 @@ margin-top:-200px;
 width:400px; 
 height:275px;
 }
-.swissspacecenter{
-width:400px; 
-height:100px;
-margin-left:75px;
-}
 .bic{
 width:350px;
 height:100px;
@@ -703,6 +711,7 @@ margin-top:-100px;
 #separateurbronze{
 width:990px; 
 height:75px;
+margin-bottom: 15px;
 }
 .swisstools{
 margin-left:75px;
@@ -715,12 +724,6 @@ margin-left:550px;
 margin-top:-50px;
 width:400px;
 height:50px;
-}
-.lemo{
-margin-left:75px;
-margin-top:40px;
-width:350px; 
-height:100px;
 }
 .kuehne{
 margin-left:700px;
@@ -753,10 +756,10 @@ width:350px;
 height:130px;
 }
 .mouser{
-margin-left:80px;
-margin-top:70px;
+margin-left:39%;
 width:200px; 
-height:60px;
+height:auto;
+margin-top:25px;
 }
 .bioenno{
 margin-left:370px;
@@ -775,6 +778,7 @@ margin-left:110px;
 margin-top:60px;
 width:450px; 
 height:80px;
+margin-left:2%;
 }
 .swaytronic{
 margin-left:630px;
@@ -785,24 +789,34 @@ height:70px;
 #separateursupports{
 width:990px; 
 height:75px;
+margin-bottom: 15px;
 }
 .espace{
 margin-left:70px;
-margin-top:70px;
-width:270px; 
-height:60px;
+width:440px; 
+height:auto;
+float:left;
+}
+.epflsup{
+margin-left:6%;
+margin-top:20px;
+width:230px; 
+height:auto;
+float:left;
 }
 .heig{
-margin-left:400px;
-margin-top:-70px;
-width:270px; 
-height:70px;
+margin-left:60px;
+margin-top:36px;
+width:275px; 
+height:auto;
+float:left;
 }
-.dslab{
-margin-left:700px;
-margin-top:-70px;
-width:200px; 
-height:80px;
+.swissspacecenter{
+margin-left:60px;
+margin-top:44px;
+width:300px; 
+height:auto;
+float:left;
 }
 
 /* Page News */
