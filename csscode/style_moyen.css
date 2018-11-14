@@ -689,14 +689,14 @@ height:250px;
 #separateurmain{
 width:750px; 
 height:auto;
-margin-bottom: 15px;
+margin-bottom: 30px;
 margin-left: 7%;
 }
 .ruag{
 width:350px; 
 height:auto;
 float:left;
-margin-left:6%;
+margin-left:5%;
 }
 .separateur{
 width:1000px;
@@ -709,16 +709,16 @@ margin-bottom: 15px;
 margin-left: 7%;
 }
 .sauber{
-width:515px;
+width:400px;
 height:auto;
-margin-top:30px;
-margin-left:2%;
+margin-top:17px;
+margin-left:8%;
 float:left
 }
 .apco{
-width:395px;
+width:270px;
 height:auto;
-margin-left:6%;
+margin-left:40px;
 float:left;
 }
 #separateursilver{
