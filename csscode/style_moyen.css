@@ -687,16 +687,16 @@ width:1000px;
 height:250px;
 }
 #separateurmain{
-width:990px; 
-height:75px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
-margin-left: 2%;
+margin-left: 7%;
 }
 .ruag{
-width:425px; 
-height:115px;
+width:350px; 
+height:auto;
 float:left;
-margin-left:2%;
+margin-left:6%;
 }
 .separateur{
 width:1000px;
@@ -855,7 +855,7 @@ height:80px;
 margin-left:2%;
 }
 .swaytronic{
-margin-left:630px;
+margin-left:350px;
 margin-top:-80px;
 width:200px; 
 height:70px;
@@ -866,8 +866,8 @@ height:75px;
 margin-bottom: 15px;
 }
 .espace{
-margin-left:70px;
-width:440px; 
+margin-left:40px;
+width:350px; 
 height:auto;
 float:left;
 }
