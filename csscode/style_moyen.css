@@ -861,7 +861,7 @@ height:70px;
 #separateursupports{
 width:750px; 
 height:auto;
-margin-bottom: 15px;
+margin-bottom: 25px;
 margin-left: 7%;
 }
 .espace{
@@ -871,23 +871,22 @@ height:auto;
 float:left;
 }
 .epflsup{
-margin-left:6%;
-margin-top:20px;
-width:230px; 
+margin-left:7%;
+width:180px; 
 height:auto;
 float:left;
 }
 .heig{
-margin-left:60px;
-margin-top:36px;
-width:275px; 
+margin-left:40px;
+margin-top:7px;
+width:230px; 
 height:auto;
 float:left;
 }
 .swissspacecenter{
-margin-left:60px;
-margin-top:44px;
-width:300px; 
+margin-left:40px;
+margin-top:9px;
+width:270px; 
 height:auto;
 float:left;
 }
