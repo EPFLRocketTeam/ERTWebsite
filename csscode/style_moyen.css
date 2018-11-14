@@ -703,10 +703,10 @@ width:1000px;
 height:280px;
 }
 #separateurgold{
-width:990px; 
-height:75px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
-margin-left: 2%;
+margin-left: 7%;
 }
 .sauber{
 width:515px;
@@ -722,22 +722,23 @@ margin-left:6%;
 float:left;
 }
 #separateursilver{
-width:990px; 
-height:75px;
-margin-left:2%;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
+margin-left: 7%;
 
 }
 .separateurbronze,.separateurwhite{
-width:1000px;
-height:250px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
-margin-left:2%;
+margin-left: 7%;
 }
 .separateursupports{
-width:1000px;
-height:250px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
+margin-left: 7%;
 }
 .lemo{
 width:450px; 
