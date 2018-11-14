@@ -705,7 +705,7 @@ height:280px;
 #separateurgold{
 width:750px; 
 height:auto;
-margin-bottom: 15px;
+margin-bottom: 30px;
 margin-left: 7%;
 }
 .sauber{
@@ -747,10 +747,10 @@ margin-left:30%;
 float:left;
 }
 .faulhaber{
-width:560px; 
+width:400px; 
 height:auto;
 margin-top: 45px;
-margin-left:23%;
+margin-left:24%;
 float:left;
 }
 .innovaud{
@@ -784,9 +784,10 @@ margin-left:610px;
 margin-top:-100px;
 }
 #separateurbronze{
-width:990px; 
-height:75px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
+margin-left: 7%;
 }
 .swisstools{
 margin-left:75px;
@@ -862,9 +863,10 @@ width:200px;
 height:70px;
 }
 #separateursupports{
-width:990px; 
-height:75px;
+width:750px; 
+height:auto;
 margin-bottom: 15px;
+margin-left: 7%;
 }
 .espace{
 margin-left:40px;
