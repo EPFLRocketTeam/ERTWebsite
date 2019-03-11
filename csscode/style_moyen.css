@@ -702,6 +702,10 @@ margin-left:5%;
 width:1000px;
 height:280px;
 }
+.separateurgold{
+	height: 450px;
+}
+
 #separateurgold{
 width:750px; 
 height:auto;
@@ -731,29 +735,39 @@ float:left;
 width:750px; 
 height:auto;
 margin-bottom: 15px;
-margin-left: 7%;
+margin-left: 7%;}
 
+.separateursilver {
+	width: 1000px;
+    height: 235px;
 }
-.separateurbronze,.separateurwhite{
-width:1000px;
-height:250px;
+
+
+.separateurbronze{
+	width: 1000px;
+	height: 350px;
 }
+
+.separateurwhite{
+	width:1000px;
+	height:315px;
+}
+
 .separateursupports{
 width:1000px;
-height:280px;
+height:500px;
 }
 .lemo{
-width:370px; 
-height:auto;
-margin-left:27%;
-float:left;
+    width: 350px;
+    height: auto;
+    margin-left: 3%;
 }
 .faulhaber{
-width:400px; 
-height:auto;
-margin-top: 45px;
-margin-left:24%;
-float:left;
+	width: 400px;
+    height: auto;
+    margin-top: 41px;
+    margin-left: 6%;
+    float: left;
 }
 .innovaud{
 margin-left:100px;
@@ -767,17 +781,21 @@ height:80px;
 margin-left:600px; 
 margin-top:-100px;
 }
-.aeropoly{
-margin-left:75px;
-margin-top:70px;
+.agepoly{
+margin-left:86px;
 width:320px; 
-height:120px;
+height:auto;
 }
-.montagne{
-margin-left:580px;
-margin-top:-200px;
-width:400px; 
-height:275px;
+.conrad{
+margin-left:75px;
+width:320px; 
+height:auto;
+}
+.montage{
+	margin-left: 49%;
+    margin-top: -65px;
+    width: 336px;
+    height: auto;
 }
 .bic{
 width:350px;
@@ -804,10 +822,10 @@ width:400px;
 height:50px;
 }
 .kuehne{
-margin-left:700px;
-margin-top:-110px;
+margin-left:210px;
+margin-top: 25px;
 width:150px; 
-height:110px;
+height:auto;
 }
 .peacock{
 margin-left:120px;
@@ -816,10 +834,10 @@ width:250px;
 height:200px;
 }
 .kifa{
-margin-left:690px;
-margin-top:-170px;
+margin-left: 550px;
+margin-top: -120px;
 width:180px; 
-height:130px;
+height:auto;
 }
 .options{
 margin-left:140px;
@@ -834,11 +852,30 @@ width:350px;
 height:130px;
 }
 .mouser{
-margin-left:35%;
-width:190px; 
-height:auto;
-margin-top:25px;
+     margin-left: 5%;
+    width: 190px;
+    height: auto;
+    margin-bottom: 14px;}
+
+.obi{
+	margin-left: 1%;
+    width: 200px;
+    height: auto;
+    margin-bottom: 17px;
 }
+.rwc{
+    margin-left: 9%;
+    width: 344px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.robopoly{
+	margin-left: 12%;
+    width: 234px;
+    height: auto;
+    margin-top: 15px;
+}
+
 .bioenno{
 margin-left:370px;
 margin-top:-70px;
@@ -880,23 +917,40 @@ float:left;
 margin-left:7%;
 width:180px; 
 height:auto;
-float:left;
 }
 .heig{
 margin-left:40px;
 margin-top:7px;
 width:230px; 
 height:auto;
-float:left;
 }
 .swissspacecenter{
 margin-left:40px;
 margin-top:9px;
 width:270px; 
 height:auto;
-float:left;
 }
-
+.lmaf{   
+    margin-left: 7%;
+    width: 180px;
+    height: auto;
+    margin-top: 50px;
+}
+.mag{
+	margin-left: 5%;
+    width: 225px;
+    height: auto;
+}
+.lpac{
+	margin-left: 7%;
+    width: 195px;
+    height: auto;
+}
+.sectionphysique{
+	margin-left: 30%;
+    width: 235px;
+    height: auto;
+    margin-top: 17px;
 
 /* Page News */
 
