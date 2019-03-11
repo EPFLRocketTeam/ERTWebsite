@@ -703,7 +703,7 @@ width:1000px;
 height:280px;
 }
 .separateurgold{
-	height: 450px;
+	height: 350px;
 }
 
 #separateurgold{
@@ -726,10 +726,10 @@ margin-left:40px;
 float:left;
 }
 .connova {
-    width: 298px;
+    width: 340px;
     height: auto;
-    margin-left: 34%;
-    float: left;
+    margin-left: 29%;
+    margin-top: 20px;
 }
 #separateursilver{
 width:750px; 
@@ -750,7 +750,7 @@ margin-left: 7%;}
 
 .separateurwhite{
 	width:1000px;
-	height:315px;
+	height:400px;
 }
 
 .separateursupports{
@@ -869,8 +869,14 @@ height:130px;
     height: auto;
     margin-bottom: 15px;
 }
+.cosylab{
+    margin-left: 30%;
+    width: 302px;
+    height: auto;
+    margin-top: 26px;
+}
 .robopoly{
-	margin-left: 12%;
+	margin-left: 16%;
     width: 234px;
     height: auto;
     margin-top: 15px;

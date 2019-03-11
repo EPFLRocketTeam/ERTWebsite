@@ -629,7 +629,7 @@ width:1000px;
 height:280px;
 }
 .separateurgold{
-	height: 610px;
+	height: 450px;
 }
 #separateurgold{
 width:990px; 
@@ -652,10 +652,10 @@ margin-left:6%;
 float:left;
 }
 .connova {
-    width:395px;
-height:auto;
-margin-left:34%;
-float:left;
+    width: 430px;
+    height: auto;
+    margin-left: 28%;
+    margin-top: 27px;
 }
 
 #separateursilver{
@@ -675,7 +675,7 @@ margin-bottom: 15px;
 }
 .separateurwhite{
 	width:1000px;
-	height:450px;
+	height:500px;
 	margin-bottom: 15px;
 	margin-left:2%;
 }
@@ -763,7 +763,7 @@ height:50px;
 .rwc{
     width: 400px;
     height: auto;
-    margin-left: 32%;
+    margin-left: 10%;
     margin-top: 35px;
 }
 .kuehne{
@@ -771,6 +771,12 @@ height:50px;
     margin-top: 40px;
     width: 157px;
     height: auto;
+}
+.cosylab{
+    width: 400px;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 35px;
 }
 .peacock{
 margin-left:120px;
