@@ -628,12 +628,16 @@ margin-left:2%;
 width:1000px;
 height:280px;
 }
+.separateurgold{
+	height: 610px;
+}
 #separateurgold{
 width:990px; 
 height:75px;
 margin-bottom: 15px;
 margin-left: 2%;
 }
+
 .sauber{
 width:515px;
 height:auto;
@@ -647,36 +651,53 @@ height:auto;
 margin-left:6%;
 float:left;
 }
+.connova {
+    width:395px;
+height:auto;
+margin-left:34%;
+float:left;
+}
+
 #separateursilver{
 width:990px; 
 height:75px;
 margin-left:2%;
 margin-bottom: 15px;
-
 }
-.separateurbronze,.separateurwhite{
-width:1000px;
-height:250px;
-margin-bottom: 15px;
-margin-left:2%;
+.separateursilver {
+    height: 300px;
+}
+.separateurbronze{
+	width:1000px;
+	height:380px;
+	margin-bottom: 15px;
+	margin-left:2%;
+}
+.separateurwhite{
+	width:1000px;
+	height:450px;
+	margin-bottom: 15px;
+	margin-left:2%;
 }
 .separateursupports{
 width:1000px;
-height:250px;
+height:550px;
 margin-bottom: 15px;
 }
 .lemo{
-width:450px; 
-height:auto;
-margin-left:30%;
-float:left;
+    width: 450px;
+    height: auto;
+    margin-left: 5%;
 }
 .faulhaber{
-width:560px; 
-height:auto;
-margin-top: 45px;
-margin-left:23%;
-float:left;
+    width: 513px;
+    height: auto;
+    margin-bottom: 38px;
+}
+.montage{
+    width: 456px;
+    height: auto;
+    margin-left: 4%;
 }
 .innovaud{
 margin-left:100px;
@@ -696,11 +717,15 @@ margin-top:70px;
 width:320px; 
 height:120px;
 }
-.montagne{
-margin-left:580px;
-margin-top:-200px;
-width:400px; 
-height:275px;
+.agepoly{
+margin-left:86px;
+width:350px; 
+height:auto;
+}
+.conrad{
+margin-left:75px;
+width:320px; 
+height:auto;
 }
 .bic{
 width:350px;
@@ -725,11 +750,27 @@ margin-top:-50px;
 width:400px;
 height:50px;
 }
+.obi{
+    width: 300px;
+    height: auto;
+    margin-left: 16%;
+}
+.robopoly{
+    width: 300px;
+    height: auto;
+    margin-left: 7%;
+}
+.rwc{
+    width: 400px;
+    height: auto;
+    margin-left: 32%;
+    margin-top: 35px;
+}
 .kuehne{
-margin-left:700px;
-margin-top:-110px;
-width:150px; 
-height:110px;
+    margin-left: 23%;
+    margin-top: 40px;
+    width: 157px;
+    height: auto;
 }
 .peacock{
 margin-left:120px;
@@ -738,10 +779,9 @@ width:250px;
 height:200px;
 }
 .kifa{
-margin-left:690px;
-margin-top:-170px;
-width:180px; 
-height:130px;
+    margin-left: 19%;
+    width: 180px;
+    height: 130px;
 }
 .options{
 margin-left:140px;
@@ -756,10 +796,10 @@ width:350px;
 height:130px;
 }
 .mouser{
-margin-left:39%;
-width:200px; 
-height:auto;
-margin-top:25px;
+    margin-left: 21%;
+    width: 250px;
+    height: auto;
+    margin-bottom: 25px;
 }
 .bioenno{
 margin-left:370px;
@@ -802,23 +842,43 @@ margin-left:6%;
 margin-top:20px;
 width:230px; 
 height:auto;
-float:left;
 }
 .heig{
 margin-left:60px;
 margin-top:36px;
 width:275px; 
 height:auto;
-float:left;
 }
 .swissspacecenter{
 margin-left:60px;
 margin-top:44px;
 width:300px; 
 height:auto;
-float:left;
 }
-
+.lmaf{
+margin-left:6%;
+margin-top:20px;
+width:230px; 
+height:auto;
+}
+.mag{
+margin-left:6%;
+margin-top:20px;
+width:230px; 
+height:auto;
+}
+.lpac{
+margin-left:10%;
+margin-top:20px;
+width:230px; 
+height:auto;
+}
+.sectionphysique{
+margin-left:35%;
+margin-top:20px;
+width:230px; 
+height:auto;
+}
 /* Page News */
 
 .decal_fb{
